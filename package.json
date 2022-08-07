@@ -1,0 +1,27 @@
+{
+  "name": "vadym-weather",
+  "version": "1.0.1",
+  "description": "",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "api",
+    "node",
+    "cli"
+  ],
+  "author": "Vadym Melnychenko",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1"
+  }
+}
