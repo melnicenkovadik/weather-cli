@@ -4,7 +4,7 @@
   "description": "",
   "main": "weather.js",
   "bin": {
-    "weather": "weather.js"
+    "w": "weather.js"
   },
   "type": "module",
   "scripts": {

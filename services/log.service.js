@@ -27,7 +27,7 @@ const printWeather = (weather, icon) => {
     ${chalk.bgBlue('Погода :')} 
     ${chalk.bgMagenta(`В місті ${weather.name} : ${chalk.blue(weather.main.temp)}°C`)}
     ${chalk.bgMagenta(`${icon} ${chalk.blue(weather.weather[0].description[0].toUpperCase() + weather.weather[0].description.slice(1))}`)}
-    ${chalk.bgMagenta(`Температура охолодження ${chalk.blue(weather.main.temp_min)}°C (ощущається ${chalk.blue(weather.main.feels_like)}°C)`)}
+    ${chalk.bgMagenta(`Температура охолодження ${chalk.blue(weather.main.temp_min)}°C (відчувається як ${chalk.blue(weather.main.feels_like)}°C)`)}
     ${chalk.bgMagenta(`Вологість ${chalk.blue(weather.main.humidity)}%`)}
     ${chalk.bgMagenta(`Швидкість вітру ${chalk.blue(weather.wind.speed)}м/c`)}
     
