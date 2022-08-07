@@ -1,14 +1,14 @@
 {
   "name": "vadym-weather",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "weather.js",
+  "main": "wthr.js",
   "bin": {
-    "w": "weather.js"
+    "wthr": "wthr.js"
   },
   "type": "module",
   "scripts": {
-    "start": "node weather.js",
+    "start": "node wthr.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
